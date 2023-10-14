@@ -1,0 +1,32 @@
+.carrusel {
+
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    display: flex;
+    
+}
+
+.card {
+    
+    flex: 1 0 auto;
+    margin: 0 8px;
+    background-color: rgb(39, 37, 37);
+    width: 250px;
+    height: 250px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1s ease;
+ 
+    
+}
+
+
+.card:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}

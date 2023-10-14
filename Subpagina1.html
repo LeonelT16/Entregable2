@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="subpagina.css">
+</head>
+<body>
+    <H1>Soporte para usuarios</H1>
+    <form >
+        <!--para agregar una linea al rededor del formulario-->
+        <fieldset>
+            <!--para agregar dentro de un cuadro al rededor su texto-->
+            <legend>Tech Security</legend>
+    <label for="nombres">Nombres: </label>
+    <br><input id="nombres" type="text" placeholder="Escribe tu nombre" required="true"></P>
+    <label for="apellidos">Apellidos:</label> <br>
+    <input id="apellidos" type="text" placeholder="Escribe tus apellidos" required="true"></p>
+    <label for="email">Email</label><br>
+    <input id="email"  type="email" placeholder="Escribe tu email" required="true"><br>
+    <label for="fecha">Fecha</label><br>
+    <input id="fecha" type="date"><br>
+    <label for="password">Contraseña:</label><br>
+    <input id="password" type="password" name="password" required="true" placeholder="Escribe tu contraseña" required="true"><br>   
+    <label for="paises">País de ubicación:</label><br>
+    <select name="paises" id="paises">
+        <option value="Perú">Perú</option>
+        <option value="Ecuador">Ecuador</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Chile">Chile</option>
+        <option value="Venezuela">Venezuela</option>
+    </select><br>
+    <label for="Comentario">Comentario:</label><br>
+    <textarea name="Comentario" id="Comentario" placeholder="Describe tu problema" cols="22" rows="4"></textarea><br> Adjunta una prueba:
+    <p><input type="file"></p>
+    <br>
+    <input type="submit" value="Enviar" width="10">
+    
+
+    
+</form>
+</body>
+</html>
